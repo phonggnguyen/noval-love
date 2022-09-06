@@ -42,7 +42,7 @@ pages:
         description: ketik nama pengguna github anda dan klik tombol untuk memvalidasi.
         footer: belajar lebih tentang
         footer_button: mengesahkan
-        footer_link: pengguna github api
+        footer_link: api pengguna github
       bot_id:
         title: id bot
         description: ini adalah id bot anda.

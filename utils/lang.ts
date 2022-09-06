@@ -9,6 +9,11 @@ export interface ILocales {
 }
 
 export const availableLocales: ILocales = {
+  vi: {
+    name: 'Vietnamese',
+    iso: 'vi',
+    flag: '🇻🇳',
+  },
   en: {
     name: 'English',
     iso: 'en',
@@ -42,7 +47,7 @@ export function LanguageManager() {
       const foundLang = window
         ? window.navigator.language.substring(0, 2)
         : 'en'
-      return availableLocales[foundLang] ? foundLang : 'en'
+      return availableLocales[foundLang] ? foundLang : 'vi'
     } catch (error) {
       return 'en'
     }
